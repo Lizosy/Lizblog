@@ -1,0 +1,16 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Lizblog"
+theme = "papermod"
+
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
