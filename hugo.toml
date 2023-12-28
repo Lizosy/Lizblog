@@ -3,14 +3,30 @@ languageCode = "en-us"
 title = "Lizblog"
 theme = "papermod"
 
-[menu]
-  [[menu.main]]
-    identifier = "categories"
-    name = "categories"
-    url = "/categories/"
-    weight = 10
-  [[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    url = "/tags/"
-    weight = 20
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Lizblog"
+theme = "PaperMod"
+
+[params]
+  [params.profileMode]
+    enabled = true
+    title = "Lizblog" # Title is now set to the site title
+    subtitle = "This is subtitle"
+    imageUrl = "https://example.org/path/to/image.jpg" # Replace with your actual image link
+    imageTitle = "Liz's Profile Picture" # Replace with your actual image title
+    imageWidth = 120 # custom size
+    imageHeight = 120 # custom size
+    [[params.profileMode.buttons]]
+      name = "Archive"
+      url = "/archive"
+    [[params.profileMode.buttons]]
+      name = "Github"
+      url = "https://github.com/username" # Replace with your actual GitHub profile link
+
+  [[params.socialIcons]] # Fill with your actual social platform names and links
+    name = "Twitter"
+    url = "https://twitter.com/username" # Replace with your actual Twitter profile link
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/username" # Replace with your actual LinkedIn profile link
