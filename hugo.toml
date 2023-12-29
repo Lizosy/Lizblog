@@ -6,10 +6,10 @@ theme = "PaperMod"
 [params]
   [params.profileMode]
     enabled = true
-    title = "Lizblog" # Title is now set to the site title
+    title = "Lizblog" 
     subtitle = "This is subtitle"
-    imageUrl = "https://example.org/path/to/image.jpg" # Replace with your actual image link
-    imageTitle = "Liz's Profile Picture" # Replace with your actual image title
+    imageUrl = "profile.png"
+    imageTitle = "Liz's Profile Picture"
     imageWidth = 120 # custom size
     imageHeight = 120 # custom size
     [[params.profileMode.buttons]]
@@ -17,11 +17,8 @@ theme = "PaperMod"
       url = "/archive"
     [[params.profileMode.buttons]]
       name = "Github"
-      url = "https://github.com/username" # Replace with your actual GitHub profile link
+      url = "https://github.com/Lizosy"
 
-  [[params.socialIcons]] # Fill with your actual social platform names and links
-    name = "Twitter"
-    url = "https://twitter.com/username" # Replace with your actual Twitter profile link
   [[params.socialIcons]]
     name = "LinkedIn"
-    url = "https://linkedin.com/in/username" # Replace with your actual LinkedIn profile link
+    url = "https://linkedin.com/in/username"
