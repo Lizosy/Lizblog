@@ -1,9 +1,4 @@
-baseURL = "https://example.org/"
-languageCode = "en-us"
-title = "Lizblog"
-theme = "papermod"
-
-baseURL = "https://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "Lizblog"
 theme = "PaperMod"
