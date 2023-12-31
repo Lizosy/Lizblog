@@ -1,0 +1,48 @@
+baseURL: ""
+languageCode: "en-us"
+title: "Lizblog"
+theme: "PaperMod"
+
+params:
+  profileMode:
+    enabled: true
+    title: "Lizosy"
+    subtitle: "Learning never exhausts the mind."
+    imageUrl: "profile.png"
+    imageTitle: "Liz's Profile Picture"
+    imageWidth: 120 
+    imageHeight: 120 
+    buttons:
+      - name: "Blog"
+        url: "posts"
+  
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/Lizosy"
+  
+  label: 
+    text: "Lizblog Blog"
+    icon: "img/icon.gif"
+    iconHeight: 45
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: "About"
+          url: "about/"
+          weight: 1
+        - name: "Blog"
+          url: "Posts/"
+          weight: 2
+        - name: "Archives"
+          url: "archives"
+          weight: 3
+        - name: "Projects"
+          url: "projects/"
+          weight: 4
+        - name: "Tags"
+          url: "tags/"
+          weight: 5
