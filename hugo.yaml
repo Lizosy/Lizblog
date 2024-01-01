@@ -21,7 +21,7 @@ params:
       url: "https://github.com/Lizosy"
   
   label: 
-    text: "Lizblog Blog"
+    text: "Lizblog"
     icon: "img/icon.gif"
     iconHeight: 45
 
