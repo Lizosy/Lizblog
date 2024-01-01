@@ -24,6 +24,13 @@ params:
     text: "Lizblog"
     icon: "img/icon.gif"
     iconHeight: 45
+  
+  assets: 
+      favicon: "/assets/favicon.ico" 
+      #favicon16x16: "/favicon-16x16.png" 
+      # favicon32x32: "/favicon-32x32.png" 
+      # apple_touch_icon: "favicon.ico" 
+      # safari_pinned_tab: "favicon.ico" 
 
 languages:
   en:
