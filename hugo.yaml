@@ -8,7 +8,7 @@ params:
     enabled: true
     title: "Lizosy"
     subtitle: "Learning never exhausts the mind."
-    imageUrl: "profile.png"
+    imageUrl: "/assets/iconbox.gif"
     imageTitle: "Liz's Profile Picture"
     imageWidth: 120 
     imageHeight: 120 
@@ -26,7 +26,7 @@ params:
     iconHeight: 45
   
   assets: 
-      favicon: "/assets/favicon.ico" 
+      favicon: "/assets/iconbox.gif" 
       #favicon16x16: "/favicon-16x16.png" 
       # favicon32x32: "/favicon-32x32.png" 
       # apple_touch_icon: "favicon.ico" 

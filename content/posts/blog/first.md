@@ -8,7 +8,7 @@ keywords:
 categories: 
 - 
 tags: 
-- blog
+- Life
 description: ""
 weight:
 slug: ""
@@ -27,3 +27,7 @@ cover:
     alt: ""
     relative: false
 ---
+
+
+
+I'm currently
